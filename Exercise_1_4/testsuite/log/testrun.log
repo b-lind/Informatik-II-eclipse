@@ -1,0 +1,33 @@
+Test Run By twyleg on Mon Mar  5 14:12:02 2018
+Native configuration is x86_64-pc-linux-gnu
+
+		===  tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /usr/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /usr/share/dejagnu/config/unix.exp as generic interface file for target.
+WARNING: Couldn't find tool config file for unix, using default.
+Running ./testsuite/gcc-execute.tests/test1.exp ...
+spawn ./output
+4
+7
+8
+Exercise 1.4
+Please insert parameters:
+Radius:
+Height cone:
+Height cylinder:
+
+Volume: 519.409985
+Surface: 352.640731
+PASS: Input-output test
+
+testcase ./testsuite/gcc-execute.tests/test1.exp completed in 0 seconds
+
+		===  Summary ===
+
+# of expected passes		1
+runtest completed at Mon Mar  5 14:12:02 2018

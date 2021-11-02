@@ -1,0 +1,12 @@
+Test Run By twyleg on Fri Mar  2 11:19:42 2018
+Native configuration is x86_64-pc-linux-gnu
+
+		=== testsuite/gcc-execute.tests/ tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+
+		=== testsuite/gcc-execute.tests/ Summary ===
+

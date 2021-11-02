@@ -1,0 +1,53 @@
+Test Run By twyleg on Fri Mar  2 16:28:42 2018
+Native configuration is x86_64-pc-linux-gnu
+
+		===  tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /usr/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /usr/share/dejagnu/config/unix.exp as generic interface file for target.
+WARNING: Couldn't find tool config file for unix, using default.
+Running ./testsuite/gcc-execute.tests/test1.exp ...
+spawn ./output
+65
+Exercise: 1.2
+Type number:
+Dez: 65, ASCII: A, Oct: 101, Hex: 0x41
+PASS: Input-output test
+
+testcase ./testsuite/gcc-execute.tests/test1.exp completed in 0 seconds
+Running ./testsuite/gcc-execute.tests/test2.exp ...
+spawn ./output
+122
+Exercise: 1.2
+Type number:
+Dez: 122, ASCII: z, Oct: 172, Hex: 0x7a
+PASS: Input-output test
+
+testcase ./testsuite/gcc-execute.tests/test2.exp completed in 0 seconds
+Running ./testsuite/gcc-execute.tests/test3.exp ...
+spawn ./output
+38
+Exercise: 1.2
+Type number:
+Dez: 38, ASCII: &, Oct: 46, Hex: 0x26
+PASS: Input-output test
+
+testcase ./testsuite/gcc-execute.tests/test3.exp completed in 0 seconds
+Running ./testsuite/gcc-execute.tests/test4.exp ...
+spawn ./output
+55
+Exercise: 1.2
+Type number:
+Dez: 55, ASCII: 7, Oct: 67, Hex: 0x37
+PASS: Input-output test
+
+testcase ./testsuite/gcc-execute.tests/test4.exp completed in 0 seconds
+
+		===  Summary ===
+
+# of expected passes		4
+runtest completed at Fri Mar  2 16:28:42 2018

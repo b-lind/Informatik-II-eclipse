@@ -1,0 +1,59 @@
+Test Run By ostfalia on Sun Apr  8 21:44:01 2018
+Native configuration is i686-pc-linux-gnu
+
+		===  tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /usr/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /usr/share/dejagnu/config/unix.exp as generic interface file for target.
+WARNING: Couldn't find tool config file for unix, using default.
+Running ./testsuite/gcc-execute.tests/test1.exp ...
+spawn ./output
+1
+Not a prime number. By definition.
+PASS: Input-output test
+
+testcase ./testsuite/gcc-execute.tests/test1.exp completed in 0 seconds
+Running ./testsuite/gcc-execute.tests/test2.exp ...
+spawn ./output
+2
+A prime number.
+PASS: Input-output test
+
+testcase ./testsuite/gcc-execute.tests/test2.exp completed in 0 seconds
+Running ./testsuite/gcc-execute.tests/test3.exp ...
+spawn ./output
+3
+A prime number.
+PASS: Input-output test
+
+testcase ./testsuite/gcc-execute.tests/test3.exp completed in 0 seconds
+Running ./testsuite/gcc-execute.tests/test4.exp ...
+spawn ./output
+4
+Not a prime number. Divisible by 2.
+PASS: Input-output test
+
+testcase ./testsuite/gcc-execute.tests/test4.exp completed in 0 seconds
+Running ./testsuite/gcc-execute.tests/test5.exp ...
+spawn ./output
+98981
+A prime number.
+PASS: Input-output test
+
+testcase ./testsuite/gcc-execute.tests/test5.exp completed in 0 seconds
+Running ./testsuite/gcc-execute.tests/test6.exp ...
+spawn ./output
+99973
+Not a prime number. Divisible by 257.
+PASS: Input-output test
+
+testcase ./testsuite/gcc-execute.tests/test6.exp completed in 0 seconds
+
+		===  Summary ===
+
+# of expected passes		6
+runtest completed at Sun Apr  8 21:44:01 2018

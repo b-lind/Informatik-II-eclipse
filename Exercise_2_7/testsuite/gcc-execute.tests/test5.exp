@@ -1,0 +1,54 @@
+#exp_internal 1
+
+# Import file with handle function
+source ./testsuite/gcc-execute.tests/Handle.tcl
+
+# Timeout reduced to 3 seconds
+set timeout 3
+
+# The name of this test and the command we will run
+set test_name "Input-output test"
+set command_line "./output"
+
+# When verbose, tell the user what we are running
+if { $verbose > 1 } {
+    send_user "starting $command_line\n"
+}
+
+set test_input "98981\n"
+set expected_output "A prime number."
+
+# Run the program.
+spawn $command_line
+
+# Send test input
+send $test_input
+
+expect {
+
+    $expected_output {
+	pass "$test_name\n"
+    }
+
+    # EOF and timeout only come after everything else. EOF must be an error.
+    eof {
+	handle_eof $expect_out(buffer) $expected_output $test_name 1
+    }
+
+    # Timeout requires inspection to determine the cause of failure.
+    timeout {
+	unresolved "$test_name: timeout no input data recognised"
+    }
+
+    # Check for any warning messages in the output first
+    #Warning {
+    #	fail "$test_name: warning: $expect_out(buffer)"
+    #}
+
+    # Check for any error messages
+    #ERROR {
+    #	fail "$test_name: error: $expect_out(buffer)"
+    #}
+
+
+}

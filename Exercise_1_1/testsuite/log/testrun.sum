@@ -1,0 +1,19 @@
+Test Run By twyleg on Sun Mar 11 17:40:25 2018
+Native configuration is x86_64-pc-linux-gnu
+
+		===  tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Running ./testsuite/gcc-execute.tests/test1.exp ...
+FAIL: Input-output test:
+	Programs output doesn't match the expected output:
+		Input: none
+		Correct Output: Hello World!
+		Printed Output: 
+
+		===  Summary ===
+
+# of unexpected failures	1

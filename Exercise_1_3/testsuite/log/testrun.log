@@ -1,0 +1,80 @@
+Test Run By twyleg on Mon Mar  5 12:48:14 2018
+Native configuration is x86_64-pc-linux-gnu
+
+		===  tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /usr/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /usr/share/dejagnu/config/unix.exp as generic interface file for target.
+WARNING: Couldn't find tool config file for unix, using default.
+Running ./testsuite/gcc-execute.tests/test1.exp ...
+spawn ./output
+2.0*3.5
+Exercise 1.3
+Equation:
+Result: 2.0000 * 3.5000 = 7.0000
+PASS: Input-output test
+
+testcase ./testsuite/gcc-execute.tests/test1.exp completed in 0 seconds
+Running ./testsuite/gcc-execute.tests/test2.exp ...
+spawn ./output
+-2.3+-8.6
+Exercise 1.3
+Equation:
+Result: -2.3000 + -8.6000 = -10.9000
+PASS: Input-output test
+
+testcase ./testsuite/gcc-execute.tests/test2.exp completed in 0 seconds
+Running ./testsuite/gcc-execute.tests/test3.exp ...
+spawn ./output
+-4.2--1.9
+Exercise 1.3
+Equation:
+Result: -4.2000 - -1.9000 = -2.3000
+PASS: Input-output test
+
+testcase ./testsuite/gcc-execute.tests/test3.exp completed in 0 seconds
+Running ./testsuite/gcc-execute.tests/test4.exp ...
+spawn ./output
+-42.24 / -2.5
+Exercise 1.3
+Equation:
+Result: -42.2400 / -2.5000 = 16.8960
+PASS: Input-output test
+
+testcase ./testsuite/gcc-execute.tests/test4.exp completed in 0 seconds
+Running ./testsuite/gcc-execute.tests/test5.exp ...
+spawn ./output
+-42.24 ? -2.5
+Exercise 1.3
+Equation:
+Error: Unsupported operator ?!
+PASS: Input-output test
+
+testcase ./testsuite/gcc-execute.tests/test5.exp completed in 0 seconds
+Running ./testsuite/gcc-execute.tests/test6.exp ...
+spawn ./output
+-42.24 / 0.0
+Exercise 1.3
+Equation:
+Error: Devision through zero!
+PASS: Input-output test
+
+testcase ./testsuite/gcc-execute.tests/test6.exp completed in 0 seconds
+Running ./testsuite/gcc-execute.tests/test7.exp ...
+spawn ./output
+ad asdf asdfg
+Exercise 1.3
+Equation:
+Error: syntax wrong!
+PASS: Input-output test
+
+testcase ./testsuite/gcc-execute.tests/test7.exp completed in 0 seconds
+
+		===  Summary ===
+
+# of expected passes		7
+runtest completed at Mon Mar  5 12:48:14 2018

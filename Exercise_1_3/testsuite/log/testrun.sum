@@ -1,0 +1,34 @@
+Test Run By twyleg on Mon Mar  5 12:48:14 2018
+Native configuration is x86_64-pc-linux-gnu
+
+		===  tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Running ./testsuite/gcc-execute.tests/test1.exp ...
+PASS: Input-output test
+
+Running ./testsuite/gcc-execute.tests/test2.exp ...
+PASS: Input-output test
+
+Running ./testsuite/gcc-execute.tests/test3.exp ...
+PASS: Input-output test
+
+Running ./testsuite/gcc-execute.tests/test4.exp ...
+PASS: Input-output test
+
+Running ./testsuite/gcc-execute.tests/test5.exp ...
+PASS: Input-output test
+
+Running ./testsuite/gcc-execute.tests/test6.exp ...
+PASS: Input-output test
+
+Running ./testsuite/gcc-execute.tests/test7.exp ...
+PASS: Input-output test
+
+
+		===  Summary ===
+
+# of expected passes		7

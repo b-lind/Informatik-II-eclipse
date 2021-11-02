@@ -1,0 +1,26 @@
+Test Run By twyleg on Sun Mar 11 17:40:25 2018
+Native configuration is x86_64-pc-linux-gnu
+
+		===  tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /usr/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /usr/share/dejagnu/config/unix.exp as generic interface file for target.
+WARNING: Couldn't find tool config file for unix, using default.
+Running ./testsuite/gcc-execute.tests/test1.exp ...
+spawn ./output
+none
+FAIL: Input-output test:
+	Programs output doesn't match the expected output:
+		Input: none
+		Correct Output: Hello World!
+		Printed Output: 
+testcase ./testsuite/gcc-execute.tests/test1.exp completed in 0 seconds
+
+		===  Summary ===
+
+# of unexpected failures	1
+runtest completed at Sun Mar 11 17:40:25 2018

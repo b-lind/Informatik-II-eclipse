@@ -1,0 +1,61 @@
+Test Run By ostfalia on Sun Apr  8 21:14:08 2018
+Native configuration is i686-pc-linux-gnu
+
+		===  tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /usr/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /usr/share/dejagnu/config/unix.exp as generic interface file for target.
+WARNING: Couldn't find tool config file for unix, using default.
+Running ./testsuite/gcc-execute.tests/test1.exp ...
+spawn ./output
+0*x^2+1*x+1
+Solution: x=-1.000000
+PASS: Input-output test
+
+testcase ./testsuite/gcc-execute.tests/test1.exp completed in 0 seconds
+Running ./testsuite/gcc-execute.tests/test2.exp ...
+spawn ./output
+0*x^2+1*x+1
+Solution: x=-1.000000
+PASS: Input-output test
+
+testcase ./testsuite/gcc-execute.tests/test2.exp completed in 0 seconds
+Running ./testsuite/gcc-execute.tests/test3.exp ...
+spawn ./output
+2.0*x^2+2.0*x-12
+1. solution: x=+2.000000
+2. solution: x=-3.000000
+PASS: Input-output test
+
+testcase ./testsuite/gcc-execute.tests/test3.exp completed in 0 seconds
+Running ./testsuite/gcc-execute.tests/test4.exp ...
+spawn ./output
+1.0*x^2-2.0*x+2.0
+1. solution: x=1.000000+1.000000i
+2. solution: x=1.000000-1.000000i
+PASS: Input-output test
+
+testcase ./testsuite/gcc-execute.tests/test4.exp completed in 0 seconds
+Running ./testsuite/gcc-execute.tests/test5.exp ...
+spawn ./output
+1.0*x^2+0.0*x+0.0
+Multiple solution: x=-0.000000
+PASS: Input-output test
+
+testcase ./testsuite/gcc-execute.tests/test5.exp completed in 0 seconds
+Running ./testsuite/gcc-execute.tests/test6.exp ...
+spawn ./output
+0.0*x^2+0.0*x+0.0
+Trivial solution
+PASS: Input-output test
+
+testcase ./testsuite/gcc-execute.tests/test6.exp completed in 0 seconds
+
+		===  Summary ===
+
+# of expected passes		6
+runtest completed at Sun Apr  8 21:14:08 2018

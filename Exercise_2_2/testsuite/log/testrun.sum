@@ -1,0 +1,28 @@
+Test Run By ostfalia on Sun Apr  8 17:53:52 2018
+Native configuration is i686-pc-linux-gnu
+
+		===  tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Running ./testsuite/gcc-execute.tests/test1.exp ...
+PASS: Input-output test
+
+Running ./testsuite/gcc-execute.tests/test2.exp ...
+PASS: Input-output test
+
+Running ./testsuite/gcc-execute.tests/test3.exp ...
+PASS: Input-output test
+
+Running ./testsuite/gcc-execute.tests/test4.exp ...
+PASS: Input-output test
+
+Running ./testsuite/gcc-execute.tests/test5.exp ...
+PASS: Input-output test
+
+
+		===  Summary ===
+
+# of expected passes		5
