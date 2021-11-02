@@ -31,7 +31,7 @@ int main(int argc, char *argv[]){
         return -1;
     }
 
-    printf("%ld", calculateFibonacci(iIndex));
+    printf("Fibonacci Number a_%d: %ld", iIndex, calculateFibonacci(iIndex));
 
     return 0;
 }
