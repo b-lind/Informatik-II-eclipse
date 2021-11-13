@@ -1,4 +1,7 @@
-﻿#include <ComplexNumbers.h>
+﻿#include "ComplexNumbers.h"
+#include <math.h>
+#include <stdlib.h>
+
 
 // Allocate Memory for num complex numbers
 ComplexNumber_t *ComplexNumber_create(int num) {
