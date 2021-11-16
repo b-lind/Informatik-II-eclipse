@@ -61,11 +61,11 @@ int main(int argc, char *argv[]){
 
 		if(ComplexNumber_getPolarParameters(&pComplexNumbers[i],&dRadius,&dAngle) == 0){
 
-			fprintf(outputFile,"%lf * exp(%lfi)\n\r",dRadius, dAngle);
+			fprintf(outputFile,"%lf * exp(%lfi)\n",dRadius, dAngle);
 
 		}else{
 
-			fprintf(outputFile,"Not clearly defined!\n\r");
+			fprintf(outputFile,"Not clearly defined!\n");
 
 		}
 
