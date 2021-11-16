@@ -3,18 +3,18 @@
 
 #define STR_LEN 100
 
+
 int stringlen(char *sIn);
 
 int stringlen(char *sIn) {
-    int i;
+    int i = 0;
 
-    for(i = 0; i < STR_LEN; i++) {
-        // includes trailing newline
-        if(*(sIn+i) == 0) // || *(sIn+i) == 10)
-            return i;
+    while (*(sIn+i) != 0)
+    {
+        i++;
     }
 
-    return -1;
+    return i;
 }
 
 int main(int argc, char *argv[]){

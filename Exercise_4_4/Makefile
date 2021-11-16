@@ -23,7 +23,7 @@ INCLUDES += -I/usr/include
 INCLUDES += -I./include
 
 LIBS = 
-LIBS += #-lcunit
+LIBS += -lcomplex
 
 
 

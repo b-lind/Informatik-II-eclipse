@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-#define FILE_PATH_IN "/home/bjoern/Informatik-II/eclipse/hamlet.txt"
-#define FILE_PATH_OUT "/home/bjoern/Informatik-II/eclipse/hamlet-result.txt"
+#define FILE_PATH_IN "./resources/hamlet.txt"
+#define FILE_PATH_OUT "hamlet-result.txt"
 
 // Datei hamlet.txt öffnen und Buchstaben getrennt nach Klein-/Großbuchstaben zählen
 // Ergbenis in Datei schreiben
