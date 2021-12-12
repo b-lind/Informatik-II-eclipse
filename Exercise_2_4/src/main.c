@@ -6,11 +6,13 @@ int main(int argc, char *argv[]){
 
 	printf("Bitte geben Sie die Koeffizienten einer quadratische Gleichung der Form a*x²+b*x+c=0 an.\n");
 
+	//scanf("%lf*x²+%lf*x+%lf=0", &dA, &dB, &dC);
+
 	printf("a = "); scanf("%lf", &dA);
 	printf("b = "); scanf("%lf", &dB);
 	printf("c = "); scanf("%lf", &dC);
 
-	//printf("%lf %lf %lf", dA, dB, dC);
+	printf("%lf %lf %lf\n", dA, dB, dC);
 
 	if(dA == 0 && dB == 0) {
 		printf("x = %lf\n", -1.0 * dC);
