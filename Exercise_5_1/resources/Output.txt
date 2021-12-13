@@ -1,0 +1,6 @@
+r=1.200 F=4.524 U=7.540
+r=3.800 F=45.365 U=23.876
+Error: Invalid Syntax
+r=3.976 F=49.664 U=24.982
+Error: Invalid Input
+r=121.200 F=46148.237 U=761.522

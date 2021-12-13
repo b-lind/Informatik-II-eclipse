@@ -1,0 +1,16 @@
+Test Run By twyleg on Fri Mar  2 11:19:42 2018
+Native configuration is x86_64-pc-linux-gnu
+
+		=== testsuite/gcc-execute.tests/ tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using /usr/share/dejagnu/baseboards/unix.exp as board description file for target.
+Using /usr/share/dejagnu/config/unix.exp as generic interface file for target.
+WARNING: Couldn't find tool config file for unix, using default.
+
+		=== testsuite/gcc-execute.tests/ Summary ===
+
+runtest completed at Fri Mar  2 11:19:42 2018

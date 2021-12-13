@@ -1,0 +1,16 @@
+Die:The
+Wettervorhersage:weather forecast
+für:for
+Heiligabend:Christmas Eve
+in:in
+diesem:this
+Jahr:year
+verspricht:promises
+weiße:white
+Weihnachten:christmas
+und:and
+tiefe:low
+Temperaturen:temperatures
+unter:below
+Null:zero
+Grad:degrees
