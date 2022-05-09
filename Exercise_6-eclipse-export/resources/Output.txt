@@ -1,0 +1,14 @@
+00100000
+00010101
+00010100
+00000010
+Syntax not correct!
+Unknown operator!
+00000001
+10101010
+Division through zero!
+Unknown operator!
+01011010
+00001010
+01100100
+Syntax not correct!
